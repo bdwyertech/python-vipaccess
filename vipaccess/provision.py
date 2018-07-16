@@ -31,8 +31,8 @@ except ImportError:
     import urllib
 
 import requests
-from Crypto.Cipher import AES
-from Crypto.Random import random
+from Cryptodome.Cipher import AES
+from Cryptodome.Random import random
 from lxml import etree
 from oath import totp
 
